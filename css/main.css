@@ -38,6 +38,7 @@ p {
   margin: 0px;
   font-family: myfont;
 }
+
 ul {
   padding: 0;
   margin: 0;
@@ -716,6 +717,13 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
         width:20px;height:20px
     }
 }
+.header_right{
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  border: 1px solid #ffffff;
+  padding: 2px;
+}
 
 .display-none{display:none}
 .header{margin-top:0;padding-top:30px;padding-bottom:30px;border:none}
@@ -727,7 +735,8 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
         .header__logo{
             position:relative;margin-bottom:0
         }
-.header__right{
+.header_right{
     position:absolute;top:0;right:0
     }
 }
+
